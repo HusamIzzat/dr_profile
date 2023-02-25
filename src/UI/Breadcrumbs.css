@@ -1,0 +1,26 @@
+.breadcrumbs {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 13.5px 0;
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color: rgba(57, 150, 221, 0.05);
+  margin-bottom: 35px;
+}
+.breadcrumbs__container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.breadcrumbs__item {
+  color: #1151a1;
+  font-weight: bold;
+  padding: 0.5rem 0;
+}
+.breadcrumbs__item.current {
+  color: #222428;
+}
+.separator {
+  margin: 0 0.5rem;
+  color: #222222;
+}

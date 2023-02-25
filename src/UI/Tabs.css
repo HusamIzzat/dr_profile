@@ -1,0 +1,25 @@
+.tabs .tabs__header {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-bottom: 1rem;
+  list-style: none;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.tabs__header__item {
+  color: #222428;
+  padding: 2rem;
+  font-size: 18px;
+  border-right: 1px solid #e0e0e0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.tabs__header__item--active {
+  color: #1151a1;
+  font-weight: bold;
+  border-bottom: 4px solid #1151a1;
+}
+.tabs__content {
+  padding: 30px;
+}

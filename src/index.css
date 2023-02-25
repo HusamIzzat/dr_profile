@@ -1,13 +1,168 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/** Proxima Nova **/
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("assets/fonts/Mark-Simonson-Proxima-Nova-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("assets/fonts/Mark-Simonson-Proxima-Nova-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/Mark-Simonson-Proxima-Nova-Regular.woff") format("woff"),
+    url("assets/fonts/Mark-Simonson-Proxima-Nova-Regular.ttf")
+      format("truetype"),
+    url("assets/fonts/Mark-Simonson-Proxima-Nova-Regular.svg#2c1459d58560f08b4b0586fbe80aa4cd")
+      format("svg");
+  /* IE6-IE8 */
+  /* Modern Browsers */
+  /* Safari, Android, iOS */
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("assets/fonts/Mark-Simonson-Proxima-Nova-Semibold.eot");
+  /* IE9 Compat Modes */
+  src: url("assets/fonts/Mark-Simonson-Proxima-Nova-Semibold.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/Mark-Simonson-Proxima-Nova-Semibold.woff") format("woff"),
+    url("assets/fonts/Mark-Simonson-Proxima-Nova-Semibold.ttf")
+      format("truetype"),
+    url("assets/fonts/Mark-Simonson-Proxima-Nova-Semibold.svg#67a6c9f6d7dc8f35ecb08de766ea56f0")
+      format("svg");
+  /* IE6-IE8 */
+  /* Modern Browsers */
+  /* Safari, Android, iOS */
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("assets/fonts/Mark-Simonson-Proxima-Nova-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("assets/fonts/Mark-Simonson-Proxima-Nova-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/Mark-Simonson-Proxima-Nova-Bold.woff") format("woff"),
+    url("assets/fonts/Mark-Simonson-Proxima-Nova-Bold.ttf") format("truetype"),
+    url("assets/fonts/Mark-Simonson-Proxima-Nova-Bold.svg#d1e00a8fb1fd9b428ab6b90409479fde")
+      format("svg");
+  /* IE6-IE8 */
+  /* Modern Browsers */
+  /* Safari, Android, iOS */
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("assets/fonts/Mark-Simonson-Proxima-Nova-Extrabold.eot");
+  /* IE9 Compat Modes */
+  src: url("assets/fonts/Mark-Simonson-Proxima-Nova-Extrabold.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/Mark-Simonson-Proxima-Nova-Extrabold.woff") format("woff"),
+    url("assets/fonts/Mark-Simonson-Proxima-Nova-Extrabold.ttf")
+      format("truetype"),
+    url("assets/fonts/Mark-Simonson-Proxima-Nova-Extrabold.svg#131ef5652291f8dc4bd914210809df02")
+      format("svg");
+  /* IE6-IE8 */
+  /* Modern Browsers */
+  /* Safari, Android, iOS */
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+/** DIN NEXT LT **/
+@font-face {
+  font-family: "DINNextLT";
+  src: url("assets/fonts/arabic/DIN-Next-LT-W23-Ultra-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("assets/fonts/arabic/DIN-Next-LT-W23-Ultra-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/arabic/DIN-Next-LT-W23-Ultra-Light.woff") format("woff"),
+    url("assets/fonts/arabic/DIN-Next-LT-W23-Ultra-Light.ttf")
+      format("truetype"),
+    url("assets/fonts/arabic/DIN-Next-LT-W23-Ultra-Light.svg#3e3033ef94a54f33e70e9046aa6a6472")
+      format("svg");
+  /* IE6-IE8 */
+  /* Modern Browsers */
+  /* Safari, Android, iOS */
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DINNextLT";
+  src: url("assets/fonts/arabic/DIN-Next-LT-W23-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("assets/fonts/arabic/DIN-Next-LT-W23-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/arabic/DIN-Next-LT-W23-Light.woff") format("woff"),
+    url("assets/fonts/arabic/DIN-Next-LT-W23-Light.ttf") format("truetype"),
+    url("assets/fonts/arabic/DIN-Next-LT-W23-Light.svg#22621ad79b2a0ef00d370a9638fd2c91")
+      format("svg");
+  /* IE6-IE8 */
+  /* Modern Browsers */
+  /* Safari, Android, iOS */
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DINNextLT";
+  src: url("assets/fonts/arabic/DIN-Next-LT-W23-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("assets/fonts/arabic/DIN-Next-LT-W23-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/arabic/DIN-Next-LT-W23-Regular.woff") format("woff"),
+    url("assets/fonts/arabic/DIN-Next-LT-W23-Regular.ttf") format("truetype"),
+    url("assets/fonts/arabic/DIN-Next-LT-W23-Regular.svg#80a79e0a72d0930618b5616004bdde10")
+      format("svg");
+  /* IE6-IE8 */
+  /* Modern Browsers */
+  /* Safari, Android, iOS */
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DINNextLT";
+  src: url("assets/fonts/arabic/DIN-Next-LT-W23-Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("assets/fonts/arabic/DIN-Next-LT-W23-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/arabic/DIN-Next-LT-W23-Medium.woff") format("woff"),
+    url("assets/fonts/arabic/DIN-Next-LT-W23-Medium.ttf") format("truetype"),
+    url("assets/fonts/arabic/DIN-Next-LT-W23-Medium.svg#745e3c0b3ca991b86177792d1c7a7bce")
+      format("svg");
+  /* IE6-IE8 */
+  /* Modern Browsers */
+  /* Safari, Android, iOS */
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DINNextLT";
+  src: url("assets/fonts/arabic/DIN-Next-LT-W23-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("assets/fonts/arabic/DIN-Next-LT-W23-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/arabic/DIN-Next-LT-W23-Bold.woff") format("woff"),
+    url("assets/fonts/arabic/DIN-Next-LT-W23-Bold.ttf") format("truetype"),
+    url("assets/fonts/arabic/DIN-Next-LT-W23-Bold.svg#677651b7e684ec8d4c3022f436ce07e6")
+      format("svg");
+  /* IE6-IE8 */
+  /* Modern Browsers */
+  /* Safari, Android, iOS */
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
 }

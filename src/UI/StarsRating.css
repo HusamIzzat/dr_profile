@@ -1,0 +1,15 @@
+.star-rating {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.on {
+  color: #fece00;
+}
+.off {
+  color: #ccc;
+}
+.time {
+  color: #595959;
+  font-size: 12px;
+}

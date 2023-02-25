@@ -1,0 +1,20 @@
+.doctor__keys {
+  list-style: none;
+  padding: 0 30px;
+  margin: 10px 0;
+}
+.doctor__keys li {
+  margin: 0 0 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  color: #222428;
+}
+.doctor__keys li svg {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  fill: #3492db;
+}
+.doctor__keys li svg path {
+  stroke: #3492db;
+}

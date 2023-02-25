@@ -1,0 +1,88 @@
+.doctor-card {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.doctor-card__image {
+  width: 270px;
+  height: 270px;
+  position: relative;
+}
+.doctor-card__image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -7px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #99cb00;
+}
+.doctor-card__image > img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #eaeaea;
+}
+.doctor-card__info {
+  width: calc(100% - 320px);
+}
+.doctor-card__header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+  margin: 0 0 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+.doctor-name {
+  margin: 0;
+}
+.doctor-name span {
+  display: block;
+}
+.doctor-name span:last-child {
+  font-size: 14px;
+  color: #999;
+  font-weight: 300;
+  margin-top: 5px;
+}
+.doctor-card_header_actions {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 5px;
+}
+.doctor-card_header_actions svg {
+  font-size: 20px;
+  color: #3492db;
+  width: 25px;
+  padding: 14px 12px;
+  border: 1px solid #3492db;
+  transition: all 0.2s ease-in-out;
+  border-radius: 4px;
+}
+
+.doctor-card_header_actions svg:hover {
+  cursor: pointer;
+  border-color: #3492db;
+  background-color: #3492db;
+  color: #fff;
+}
+.doctor-card__body {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 0 10px;
+  padding: 0 0 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+.doctor-card__body > div {
+  width: 50%;
+}
+.doctor-card__body p {
+  margin: 10px 0;
+}
