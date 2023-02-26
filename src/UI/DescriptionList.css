@@ -1,0 +1,19 @@
+.list_desc {
+  list-style: none;
+  padding: 0;
+}
+.list_desc li {
+  margin: 0 0 10px;
+  font-size: 14.5px;
+  color: #222428;
+  line-height: 1.8;
+  margin-left: 1em;
+}
+.list_desc li::before {
+  content: "•";
+  color: #1151a1;
+  font-weight: bold;
+  display: inline-block;
+  width: 1.5em;
+  margin-left: -1em;
+}

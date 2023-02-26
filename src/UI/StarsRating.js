@@ -13,7 +13,7 @@ const StasRating = (props) => {
           />
         );
       })}
-      {props.reviews && `nbsp; (${props.reviews} reviews)`}
+      {props.reviews && ` (${props.reviews}  reviews)`}
       {props.time && <span className="time">{props.time} ago</span>}
     </div>
   );

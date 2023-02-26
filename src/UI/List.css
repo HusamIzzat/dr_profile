@@ -1,0 +1,9 @@
+.list__item {
+  margin: 0 0 10px;
+}
+.list__item > h3 {
+  margin: 0 0 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1151a1;
+}

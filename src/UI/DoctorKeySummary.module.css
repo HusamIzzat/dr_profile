@@ -18,3 +18,9 @@
 .doctor__keys li svg path {
   stroke: #3492db;
 }
+@media (max-width: 768px) {
+  .doctor__keys {
+    padding: 0;
+    margin: 15px 0;
+  }
+}

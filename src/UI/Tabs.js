@@ -2,9 +2,12 @@ import React from "react";
 import "./Tabs.css";
 import { useState } from "react";
 import ReviewsList from "./ReviewsList";
+import List from "./List";
 
 const Tabs = ({ tabs }) => {
+  console.log(tabs);
   const [activeTab, setActiveTab] = useState(0);
+
   return (
     <div className="tabs">
       <div className="tabs__header">
@@ -21,8 +24,8 @@ const Tabs = ({ tabs }) => {
         ))}
       </div>
       <div className="tabs__content">
-        {typeof tabs[activeTab].content === "string" ? (
-          <div className="tabs__content__item">{tabs[activeTab].content}</div>
+        {tabs[activeTab].title !== "Reviews" ? (
+          <List list={tabs[activeTab].content} />
         ) : (
           <ReviewsList reviews={tabs[activeTab].content} />
         )}

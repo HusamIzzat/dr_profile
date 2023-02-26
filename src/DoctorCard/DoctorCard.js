@@ -9,6 +9,10 @@ import Tag from "../UI/Tag";
 import DoctorKeySummary from "../UI/DoctorKeySummary";
 import Button from "../UI/Button";
 import Container from "../UI/Container";
+import { AiOutlinePlayCircle } from "react-icons/ai";
+
+import { useState } from "react";
+import Modal from "../UI/Modal";
 const tag = [
   "Dentist",
   "Dermatologist",
@@ -24,14 +28,20 @@ const DoctorKeys = [
   { time: "Accept new consultations (expect a response within 6 hours)" },
   { consultation: "108 Consultations" },
   { fees: "69 SAR Consultation fees" },
+  { insurance: "insurance: MEDGULF , BUPA" },
 ];
 const DoctorCard = () => {
+  const [showModal, setShowModal] = useState(false);
+  const modalShow = () => {
+    setShowModal((prev) => !prev);
+  };
   return (
     <Container>
       <Card>
         <div className={styles["doctor-card"]}>
-          <div className={styles["doctor-card__image"]}>
+          <div className={styles["doctor-card__image"]} onClick={modalShow}>
             <img src={DoctorImage} alt="doctor" />
+            <AiOutlinePlayCircle />
           </div>
           <div className={styles["doctor-card__info"]}>
             <div className={styles["doctor-card__header"]}>
@@ -70,6 +80,19 @@ const DoctorCard = () => {
           </div>
         </div>
       </Card>
+      {showModal && (
+        <Modal onClose={modalShow}>
+          <iframe
+            width="100%"
+            height="400px"
+            src="https://www.youtube.com/embed/dx5M83fbIlo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </Modal>
+      )}
     </Container>
   );
 };

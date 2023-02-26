@@ -4,6 +4,7 @@ import DoctorCard from "./DoctorCard/DoctorCard";
 import DoctorCardDetails from "./DoctorCard/DoctorCardDetails";
 import Header from "./Header/Header";
 import Breadcrumbs from "./UI/Breadcrumbs";
+import Modal from "./UI/Modal";
 
 const items = [
   {

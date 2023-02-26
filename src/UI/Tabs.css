@@ -21,5 +21,14 @@
   border-bottom: 4px solid #1151a1;
 }
 .tabs__content {
-  padding: 30px;
+  padding: 30px 50px;
+}
+@media (max-width: 768px) {
+  .tabs__content {
+    padding: 15px;
+  }
+  .tabs__header__item {
+    padding: 1rem;
+    font-size: 16px;
+  }
 }
