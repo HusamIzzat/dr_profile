@@ -14,6 +14,7 @@ const Modal = (props) => {
           <h2>{props.title}</h2>
           <SlClose></SlClose>
         </div>
+        {/* */}
         <div className="Modal__body">{props.children}</div>
       </div>
     </div>
