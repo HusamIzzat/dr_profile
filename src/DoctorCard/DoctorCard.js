@@ -20,6 +20,15 @@ const tag = [
   "Integrative Cardiology",
   "Dermatologist",
   "General Practice",
+  "Integrative Cardiology",
+  "Dermatologist",
+  "General Practice",
+  "Holistic Preventive Medicine",
+  "Dermatologist",
+  "General Practice",
+  "Integrative Cardiology",
+  "Dermatologist",
+  "General Practice",
   "Holistic Preventive Medicine",
 ];
 const DoctorKeys = [
@@ -42,14 +51,22 @@ const DoctorCard = () => {
           <div className={styles["doctor-card__image"]} onClick={modalShow}>
             <img src={DoctorImage} alt="doctor" />
             <AiOutlinePlayCircle />
+            <Button
+              width={"100%"}
+              height={"36px"}
+              color={"#fff"}
+              bgColor={"#3492db"}
+            >
+              Consult for 69 SAR
+            </Button>
           </div>
           <div className={styles["doctor-card__info"]}>
             <div className={styles["doctor-card__header"]}>
               {/* Header  */}
               <h2 className={styles["doctor-name"]}>
-                <span>Dr. Abdulrahman Abdulrahman</span>
+                <span>Dr. Abdulrahman Abdulrahman </span>
                 <span>
-                  Medical License No. <strong>11RM0046881</strong>{" "}
+                  <strong>Medical License No.</strong> 11RM0046881
                 </span>
               </h2>
               <div className={styles["doctor-card_header_actions"]}>
@@ -59,6 +76,7 @@ const DoctorCard = () => {
             </div>
             <div className={styles["doctor-card__body"]}>
               {/* Body  */}
+
               <div className={styles["doctor-card_body_desc"]}>
                 <p>General Practice</p>
                 <StarsRating rate={4} reviews={302} time={false} />
@@ -69,14 +87,6 @@ const DoctorCard = () => {
                 <DoctorKeySummary DoctorKeys={DoctorKeys} />
               </div>
             </div>
-            <Button
-              width={"140px"}
-              height={"40px"}
-              color={"#fff"}
-              bgColor={"#3492db"}
-            >
-              Consult
-            </Button>
           </div>
         </div>
       </Card>

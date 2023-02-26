@@ -17,3 +17,11 @@
 .block_rate {
   margin: 0 10px;
 }
+.block_rate > span {
+  font-weight: bold;
+}
+.Review__content {
+  font-size: 15px;
+  color: #222428;
+  line-height: 1.8;
+}

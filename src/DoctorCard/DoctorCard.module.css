@@ -8,11 +8,12 @@
   width: 270px;
   height: 270px;
   position: relative;
+  border-radius: 5px;
 }
 .doctor-card__image::after {
   content: "";
   position: absolute;
-  top: 0;
+  top: -3px;
   left: -7px;
   width: 20px;
   height: 20px;
@@ -27,11 +28,12 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 .doctor-card__image > img {
   width: 100%;
   height: 100%;
-  border: 1px solid #eaeaea;
+  border-radius: 5px;
 }
 .doctor-card__image svg {
   position: absolute;
@@ -49,9 +51,9 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
-  padding: 10px 0;
+  padding: 0 0 10px;
   margin: 0 0 10px;
   border-bottom: 1px solid #eaeaea;
 }
@@ -77,7 +79,7 @@
   font-size: 20px;
   color: #3492db;
   width: 25px;
-  padding: 14px 12px;
+  padding: 8px 6px;
   border: 1px solid #3492db;
   transition: all 0.2s ease-in-out;
   border-radius: 4px;
@@ -94,15 +96,22 @@
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 0 0 10px;
-  padding: 0 0 10px;
-  border-bottom: 1px solid #eaeaea;
 }
 .doctor-card__body > div {
   width: 50%;
 }
 .doctor-card__body p {
   margin: 10px 0;
+}
+.doctor-card__body p:first-child {
+  font-weight: bold;
+  background: #f5f5f5f5;
+  display: inline-block;
+  padding: 4px 6px;
+  font-weight: 500;
+  border-radius: 14px;
+  color: #3492db;
+  font-size: 15px;
 }
 @media (max-width: 768px) {
   .doctor-card,
@@ -123,6 +132,13 @@
 
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+  }
+  .doctor-name span {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  .doctor-name {
+    margin: 10px 0 0;
   }
 }

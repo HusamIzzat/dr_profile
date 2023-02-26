@@ -1,9 +1,11 @@
 .list__item {
-  margin: 0 0 10px;
+  padding: 13px 0 0;
+  border-bottom: 1px solid #eaeaea;
 }
 .list__item > h3 {
   margin: 0 0 5px;
-  font-size: 18px;
-  font-weight: 500;
-  color: #1151a1;
+  font-size: 15px;
+  font-weight: 700;
+  color: #222428;
+  margin: 0;
 }

@@ -43,4 +43,7 @@ header {
   .header span {
     display: none;
   }
+  .header {
+    padding: 12.75px 15px;
+  }
 }

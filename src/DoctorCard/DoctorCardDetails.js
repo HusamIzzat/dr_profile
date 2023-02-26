@@ -42,18 +42,46 @@ const tabs = [
           "Specialist in psychotherapy, psychotherapy, psychotherapy, psychotherapy, psychotherapy, psychotherapy, psychotherapy, social care, psychotherapy, psychological and international care, seeing a doctor or psychologist in the clinic",
       },
       {
-        name: "Mohamed",
+        name: "Malik Elbdari",
         rate: 4,
         time: "3 days",
         review:
           "Specialist in psychotherapy, psychotherapy, psychotherapy, psychotherapy, psychotherapy, psychotherapy, psychotherapy, social care, psychotherapy, psychological and international care, seeing a doctor or psychologist in the clinic",
       },
       {
-        name: "Ali",
+        name: "Ali AbuRahma",
         rate: 3,
         time: "4 months",
         review:
           "Specialist in psychotherapy, psychotherapy, psychotherapy, psychotherapy, psychotherapy, psychotherapy, psychotherapy, social care, psychotherapy, psychological and international care, seeing a doctor or psychologist in the clinic",
+      },
+      {
+        name: "Husam Awajan",
+        rate: 3,
+        time: "4 months",
+        review:
+          "جزاك الله خيرا ، دكتور له حس فكاهي ، لطيف و طيب القلب ، سعيد جدا بالخدمه المقدمه",
+      },
+      {
+        name: "Bashar Alahmad",
+        rate: 3,
+        time: "4 months",
+        review:
+          "Specialist in psychotherapy, psychotherapy, psychotherapy, psychotherapy, psychotherapy, psychotherapy, psychotherapy, social care, psychotherapy, psychological and international care, seeing a doctor or psychologist in the clinic",
+      },
+      {
+        name: "Eman Bani Hani",
+        rate: 3,
+        time: "4 months",
+        review:
+          "Specialist in psychotherapy, psychotherapy, psychotherapy, psychotherapy, psychotherapy, psychotherapy, psychotherapy, social care, psychotherapy, psychological and international care, seeing a doctor or psychologist in the clinic",
+      },
+      {
+        name: "Husam Izzat Alabahreh",
+        rate: 3,
+        time: "4 months",
+        review:
+          "دكتور شاطر مخلص بعمله ، قدم لي مشورة مهنية ومفيدة ومتميزة ، وأنصح بزيارته للجميع",
       },
     ],
   },

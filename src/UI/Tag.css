@@ -1,0 +1,10 @@
+.tagsContainer span {
+  color: #1151a1;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+}
+.tagsContainer span:hover {
+  color: #1151a1;
+  text-decoration: underline;
+}

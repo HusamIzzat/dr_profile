@@ -13,10 +13,10 @@
   margin-right: 5px;
   width: 20px;
   height: 20px;
-  fill: #3492db;
+  fill: #222428;
 }
 .doctor__keys li svg path {
-  stroke: #3492db;
+  stroke: #222428;
 }
 @media (max-width: 768px) {
   .doctor__keys {
