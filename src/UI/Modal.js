@@ -1,6 +1,5 @@
 import React from "react";
 import "./Modal.css";
-import { useState } from "react";
 
 import { SlClose } from "react-icons/sl";
 const Modal = (props) => {
